@@ -1,6 +1,6 @@
 {
   "name": "@themaymeow/hugo-posts-graph",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Posts graph for hugo",
   "main": "hugo.js",
   "scripts": {

@@ -1,9 +1,9 @@
 {{ $dataForGraph := .Site.Data.postGraph }}
 <div>
 {{ range $k, $v := $dataForGraph }}
-<div class="epg" style=" margin: 20px 0;">
-    <div class="epg__year">{{ $k }}</div>
-    <div class="epg__months">
+<div class="hpg" style=" margin: 20px 0;">
+    <div class="hpg__year">{{ $k }}</div>
+    <div class="hpg__months">
         <div>Jan</div>
         <div>Feb</div>
         <div>Mar</div>
@@ -17,20 +17,20 @@
         <div>Nov</div>
         <div>Dec</div>
     </div>
-    <div class="epg__squares">
+    <div class="hpg__squares">
 
         {{ with $v.offset }}
             {{ range $i := seq 1 . }}
-                <div class="epg__box epg__box--empty"></div>
+                <div class="hpg__box hpg__box--empty"></div>
             {{ end }}
         {{ end}}
 
         {{ with $v.days }}
             {{ range $i := seq 1 . }}
                 {{ if in $v.daysWithPost $i }}
-                    <div class="epg__box epg__hasPost"></div>
+                    <div class="hpg__box hpg__hasPost"></div>
                 {{ else }}
-                    <div class="epg__box"></div>
+                    <div class="hpg__box"></div>
                 {{ end }}
             {{ end }}
         {{ end}}
