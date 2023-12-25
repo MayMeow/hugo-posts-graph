@@ -1,0 +1,19 @@
+{
+  "name": "@themaymeow/hugo-posts-graph",
+  "version": "1.0.0",
+  "description": "Posts graph for hugo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayMeow/hugo-posts-graph.git"
+  },
+  "author": "May Meow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayMeow/hugo-posts-graph/issues"
+  },
+  "homepage": "https://github.com/MayMeow/hugo-posts-graph#readme"
+}
